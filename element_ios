@@ -1,0 +1,65 @@
+/* Основной шрифт и цвета */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  background-color: #F2F2F7 !important;
+  color: #333333 !important;
+}
+
+/* Ссылки */
+a {
+  color: #007AFF !important;
+  text-decoration: none !important;
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold !important;
+  color: #333333 !important;
+}
+
+/* Фон панелей */
+.mx_RoomHeader, .mx_LeftPanel, .mx_RightPanel {
+  background-color: #FFFFFF !important;
+}
+
+/* Фон сообщений */
+.mx_EventTile.mx_EventTile_info, .mx_EventTile.mx_EventTile_emoji {
+  background-color: #F2F2F7 !important;
+}
+
+/* Фон панели ввода сообщений */
+.mx_MessageComposer_wrapper {
+  background-color: #FFFFFF !important;
+}
+
+/* Рамка панели ввода сообщений */
+.mx_MessageComposer_wrapper:before {
+  border-color: #CCCCCC !important;
+}
+
+/* Сообщения отправителя */
+.mx_EventTile_sender {
+  font-weight: bold !important;
+  color: #333333 !important;
+}
+
+/* Кнопки */
+button {
+  background-color: #007AFF !important;
+  border: none !important;
+  border-radius: 6px !important;
+  color: #FFFFFF !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  cursor:pointer;
+}
+
+button:hover {
+  background-color: #005BBF !important;
+}
+
+button:disabled {
+  background-color: #A6BFFF !important;
+  cursor: not-allowed;
+}
